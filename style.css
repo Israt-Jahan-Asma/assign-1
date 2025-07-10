@@ -1,0 +1,67 @@
+
+.inter-inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-rale-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+
+    margin: 0px auto;
+    /* padding:50px 150px; */
+
+}
+.hero{
+    background-image: url('Assets/Hero-bg.png');
+    /* padding: 50px 200px 150px; */
+    
+}
+header{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+
+}
+.logo{
+    font-family: "Inter";
+    font-size: 34px;
+    font-weight: 700;
+    color: #4E47FF;
+    text-transform: uppercase;
+}
+
+.button{
+    color: white;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold  ;
+    
+}
+
+.banner{
+    width: 1140px;
+    margin: auto;
+    margin-top: 158px;
+    text-align: center;
+    padding-bottom: 152px;
+}
+.banner h3{ 
+    font-family: "raleway";
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+
+}
