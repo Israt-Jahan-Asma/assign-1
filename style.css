@@ -151,7 +151,7 @@ padding: 100px 0px;
 }
 /*  Users’ Feedback Section */
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 .user{
     width: 1140px;
@@ -216,7 +216,38 @@ padding: 100px 0px;
     font-size: 16px;
     font-family: 'inter';
 }
+/* focus */
 
+.focus{
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    border-radius: 14px;
+    background: white;
+    padding: 71px 150px;
+}
+
+.focus h3{
+    font-family: "raleway";
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+    line-height: 0;
+}
+.focus p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-family: 'inter';
+
+}
+.focus a{
+    display: block;
+    padding: 20px 0px; 
+}
+.focus img{
+    border-radius: 48px;
+}
 /* Get In Touch Section */
 
 .get-in{
@@ -241,7 +272,7 @@ form label{
     font-weight: 500;
     font-size: 18px;
     font-family: 'inter';
-    margin: 10px 0;
+    margin: 20px 0px 10px 0;
 }
 form input[type="text"],
 form input[type="email"],
@@ -259,7 +290,7 @@ form textarea {
 form input[type="submit"]{
     color: white;
     background-color: #4E47FF;
-    padding: 12px 36px;
+    padding: 19px 36px;
     border: 1px solid #4E47FF;
     border-radius: 10px;
     font-family: 'Raleway';
@@ -317,4 +348,8 @@ footer li{
     display: inline;
     margin-right: 48px;
 
+}
+footer li:hover{
+    color: #4E47FF;
+    transition: 0.5s;
 }
